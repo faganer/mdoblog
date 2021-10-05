@@ -46,11 +46,11 @@ function appthemes_add_quicktags()
 		QTags.addButton( 'eg_php', 'php', '[php]', '[/php]', 'php', '', 201 );
 		QTags.addButton( 'eg_bash', 'bash', '[bash]', '[/bash]', 'bash', '', 202 );
 		QTags.addButton( 'eg_js', 'js', '[javascript]', '[/javascript]', 'js', '', 203 );
-		QTags.addButton( 'eg_json', 'json', '[json]', '[/json]', 'json', '', 204 );
+		QTags.addButton( 'eg_json', 'json', '[sourcecode language="plain"]', '[/sourcecode]', 'json', '', 204 );
 		QTags.addButton( 'eg_css', 'css', '[css]', '[/css]', 'css', '', 205 );
 		QTags.addButton( 'eg_sql', 'sql', '[sql]', '[/sql]', 'sql', '', 206 );
 		QTags.addButton( 'eg_xml', 'xml', '[xml]', '[/xml]', 'xml', '', 207 );
-		QTags.addButton( 'eg_html', 'html', '[html]', '[/html]', 'html', '', 208 );
+		QTags.addButton( 'eg_html', 'html', '[sourcecode language="html"]', '[/sourcecode]', 'html', '', 208 );
     </script>
 <?php
     }
