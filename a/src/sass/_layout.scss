@@ -1,0 +1,13 @@
+@include media-breakpoint-down(lg) {
+  .banner {
+    background-image: none !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .blog-post-list {
+    p {
+      @include rfs(1.2rem);
+    }
+  }
+}

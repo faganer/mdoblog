@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mdoBlog\n"
+"POT-Creation-Date: 2021-10-01 08:49+0800\n"
+"PO-Revision-Date: 2021-10-01 08:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "评论关闭"
+
+#: footer.php:17
+msgid "Back to top"
+msgstr "返回顶部"
+
+#: footer.php:32 footer.php:39 footer.php:46 header.php:87 header.php:175
+msgid "Search"
+msgstr "搜索"
+
+#: footer.php:45
+msgid "Close"
+msgstr "结束"
+
+#: functions.php:53
+msgid "Primary"
+msgstr "主要的"
+
+#: functions.php:54 functions.php:129
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: functions.php:131 functions.php:143 functions.php:155 functions.php:167
+msgid "Add widgets here."
+msgstr "添加小部件"
+
+#: functions.php:141
+msgid "Links Sidebar"
+msgstr "友情链接侧边栏"
+
+#: functions.php:153
+msgid "Category Sidebar"
+msgstr "分类目录侧边栏"
+
+#: functions.php:165
+msgid "Single Sidebar"
+msgstr "文章页面侧边栏"
+
+#: header.php:59
+msgid "Hi!"
+msgstr "嘿！"
+
+#: header.php:59
+msgid "Enter the dashboard"
+msgstr "进入仪表盘"
+
+#: header.php:60 header.php:155
+msgid "Sign out"
+msgstr "退出登陆"
+
+#: header.php:70 header.php:132
+msgid "Sign in"
+msgstr "登录"
+
+#: index.php:8 index.php:41
+msgid "Continue reading…"
+msgstr "继续阅读…"
+
+#: index.php:59
+msgid "Latest content"
+msgstr "最新内容"
+
+#: sidebar.php:14
+msgid "About"
+msgstr "关于我们"
+
+#: sidebar.php:16
+msgid "Understand more…"
+msgstr "了解更多..."
+
+#: template-parts/content-404.php:2
+msgid "Oops! That page can’t be found."
+msgstr "哎呀！页面无法找到。"
+
+#: template-parts/content-card.php:26 template-parts/content-loop.php:26
+#: template-parts/content-search.php:47
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起，没有找到您需要的文章。"
+
+#: template-parts/content-card.php:41 template-parts/content-loop.php:41
+#: template-parts/content-search.php:62
+msgid "<span class=\"\">&larr;</span> Older posts"
+msgstr "<span class=\"\">&larr;</span> 旧文章"
+
+#: template-parts/content-card.php:42 template-parts/content-loop.php:42
+#: template-parts/content-search.php:63
+msgid "Newer posts <span class=\"\">&rarr;</span>"
+msgstr "新文章 <span class=\"\">&rarr;</span>"
+
+#: template-parts/content-loop.php:12
+msgid "WordPress theme:"
+msgstr "WordPress主题："
