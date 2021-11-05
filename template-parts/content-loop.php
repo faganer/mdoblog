@@ -7,7 +7,12 @@
 			<?php while( have_posts() ) : the_post(); ?>
 				<li <?php post_class('list-group-item'); ?> role="listitem">
 					<p class="d-flex m-0 py-2 flex-wrap justify-content-lg-between align-items-center">
-						<a href="<?php the_permalink(); ?>" rel="bookmark" class="link-dark text-decoration-none"><?php the_title(); ?></a>
+						<a href="<?php the_permalink(); ?>" rel="bookmark" class="link-dark text-decoration-none">
+              <?php if( in_category('themes') ) {
+                esc_html_e('WordPress theme:', 'mdoblog');
+              }
+              the_title();?>
+            </a>
 						<span class="text-muted fs-6 d-none d-md-inline-block"><?php the_time('Y-m-d');?></span>
 					</p>
 				</li>

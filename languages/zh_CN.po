@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdoBlog\n"
-"POT-Creation-Date: 2021-07-30 11:26+0800\n"
-"PO-Revision-Date: 2021-07-30 11:27+0800\n"
+"POT-Creation-Date: 2021-10-01 08:49+0800\n"
+"PO-Revision-Date: 2021-10-01 08:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -36,7 +36,7 @@ msgstr[1] ""
 
 #: comments.php:68
 msgid "Comments are closed."
-msgstr "已关闭评论."
+msgstr "评论关闭"
 
 #: footer.php:17
 msgid "Back to top"
@@ -48,7 +48,7 @@ msgstr "搜索"
 
 #: footer.php:45
 msgid "Close"
-msgstr "关闭"
+msgstr "结束"
 
 #: functions.php:53
 msgid "Primary"
@@ -60,7 +60,7 @@ msgstr "侧边栏"
 
 #: functions.php:131 functions.php:143 functions.php:155 functions.php:167
 msgid "Add widgets here."
-msgstr "在这里添加小部件"
+msgstr "添加小部件"
 
 #: functions.php:141
 msgid "Links Sidebar"
@@ -84,7 +84,7 @@ msgstr "进入仪表盘"
 
 #: header.php:60 header.php:155
 msgid "Sign out"
-msgstr "退出"
+msgstr "退出登陆"
 
 #: header.php:70 header.php:132
 msgid "Sign in"
@@ -100,7 +100,7 @@ msgstr "最新内容"
 
 #: sidebar.php:14
 msgid "About"
-msgstr "关于"
+msgstr "关于我们"
 
 #: sidebar.php:16
 msgid "Understand more…"
@@ -110,20 +110,21 @@ msgstr "了解更多..."
 msgid "Oops! That page can’t be found."
 msgstr "哎呀！页面无法找到。"
 
-#: template-parts/content-card.php:26 template-parts/content-loop.php:21
+#: template-parts/content-card.php:26 template-parts/content-loop.php:26
 #: template-parts/content-search.php:47
 msgid "Sorry, no posts matched your criteria."
 msgstr "对不起，没有找到您需要的文章。"
 
-#: template-parts/content-card.php:41 template-parts/content-loop.php:36
+#: template-parts/content-card.php:41 template-parts/content-loop.php:41
 #: template-parts/content-search.php:62
 msgid "<span class=\"\">&larr;</span> Older posts"
-msgstr "<span class=\"\">←</span>旧文章"
+msgstr "<span class=\"\">&larr;</span> 旧文章"
 
-#: template-parts/content-card.php:42 template-parts/content-loop.php:37
+#: template-parts/content-card.php:42 template-parts/content-loop.php:42
 #: template-parts/content-search.php:63
 msgid "Newer posts <span class=\"\">&rarr;</span>"
-msgstr "新文章<span class=\"\">→</span>"
+msgstr "新文章 <span class=\"\">&rarr;</span>"
 
-#~ msgid "Login|Register"
-#~ msgstr "登录/注册"
+#: template-parts/content-loop.php:12
+msgid "WordPress theme:"
+msgstr "WordPress主题："
