@@ -6,7 +6,7 @@ Tags: responsive, carousel, self-media, two-columns, blog
 Requires at least: 4.5
 Tested up to: 5.4
 Requires PHP: 5.6
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -24,11 +24,15 @@ Description
 
 == Changelog ==
 
+= 1.1.1 - 2021-11-18 =
+* 修正移动端下弹出菜单遮挡问题
+
 = 1.1.0 - 2021-11-05 =
 * 修正文章页面图片宽度溢出Layout的问题
 
 = 1.0.9 - 2021-10-05 =
 * 修正SyntaxHighlighter Evolved在编辑器TinyMCE中的快速按钮SQL、HTML短代码错误
+
 
 = 1.0.8 - 2021-10-01 =
 * loop新增主题文章前缀
